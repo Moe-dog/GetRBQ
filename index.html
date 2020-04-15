@@ -1,0 +1,181 @@
+<!DOCTYPE html
+          PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control"
+        content="no-transform">
+  <meta http-equiv="Cache-Control"
+        content="no-siteapp">
+  <meta name="robots"
+        content="index,follow">
+  <meta name="format-detection"
+        content="telphone=no, email=no">
+  <meta name="description"
+        itemprop="description"
+        content="在这里，获取你的专属绒布球吧！">
+  <meta name="keywords"
+        content="绒布球">
+  <link rel="shortcut icon"
+        href="https://prprpr.love/favicon.ico">
+  <title>获取绒布球 - 最新群号发布页</title>
+  <style type="text/css">
+    .abc {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .def {
+      font-size: 30px;
+      font-weight: bold;
+      color: #cd0000;
+    }
+
+    a {
+      color: #0925e7;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #32cd32;
+    }
+
+    .qun {
+      float: right;
+      margin: 50px 30px 0 0;
+      width: 280px;
+    }
+
+    p.blue {
+      color: #00f;
+    }
+
+    p {
+      font-size: 14px;
+      color: red;
+    }
+
+    .abc:before {
+      content: '';
+      display: inline-block;
+      padding-left: 26px;
+      height: 12px;
+      background: url(jiantou.gif) no-repeat;
+      background-size: contain;
+    }
+
+    span.date {
+      font-size: 10px;
+      color: gray;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <table width="600"
+           cellspacing="0"
+           cellpadding="0"
+           align="center">
+      <tbody>
+        <tr>
+          <td align="center"><span class="def">群号永久发布页</span></td>
+        </tr>
+        <tr>
+          <td height="70"
+              align="center">收藏本群号发布页，随时了解最新群号，每日更新，不容错过！</td>
+        </tr>
+        <tr>
+          <td height="3"
+              bgcolor="#00cd00"></td>
+        </tr>
+        <tr>
+          <td height="80">
+            <img class="qun"
+                 src="qun.gif">
+            <br>
+            <p class="blue"><b>※※话题多多，气氛活泼※※</b></p>
+            <p><b>※※千人在线，同屏聊天※※</b></p>
+            <p><!--<span class="abc">最新群号1:&nbsp;<a :href="live.link"
+                   target="_blank">{{ live.id }}</a></span>&nbsp;--><span class="abc"><a href="https://wj.qq.com/s2/3318631/2970" target="_blank">小群申请</a></span></p>
+            <p v-for="(qun, index) in rip"
+               :key="qun.id">
+              <span class="abc">最新群号{{ index+2 }}:&nbsp;<del><a href="#">{{ qun.id }}</a></del></span>&nbsp;<span
+                    class="date">{{ qun.from }} - {{ qun.to }}</span>
+            </p>
+            <p><b>※※每日更新，敬请收藏※※</b></p>
+          </td>
+        </tr>
+        <tr>
+          <td height="3"
+              bgcolor="#00cd00"></td>
+        </tr>
+        <tr>
+          <td height="50">
+            <p>友情推荐:
+              <a href="https://diygay.me/"
+                 target="_blank">diygay.me</a>　
+              <a href="http://getloli.com/"
+                 target="_blank">getloli.com</a>　
+              <a href="http://playloli.com/"
+                 target="_blank">playloli.com</a>　
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"
+          integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY="
+          crossorigin="anonymous"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        live: {
+          id: '点击申请',
+          link: 'https://forms.gle/idLbJVB5PxL5EMuc9'
+        },
+        rip: [{
+            id: 874700275,
+            from: '2019/06/21',
+            to: '2019/07/29'
+          },{
+            id: 870408198,
+            from: '2019/03/30',
+            to: '2019/06/21'
+          },
+          {
+            id: 781686874,
+            from: '2019/03/27',
+            to: '2019/03/30'
+          },
+          {
+            id: 313803673,
+            from: '2019/02/27',
+            to: '2019/03/26'
+          },
+          {
+            id: 822269956,
+            from: '2019/02/23',
+            to: '2019/02/27'
+          },
+          {
+            id: 496685635,
+            from: '?',
+            to: '2019/02/23'
+          }
+        ]
+      }
+    })
+
+  </script>
+</body>
+
+</html>
